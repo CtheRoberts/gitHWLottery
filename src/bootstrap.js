@@ -1,2 +1,3 @@
-// ES6 code goes here
-console.log('es6 code goes here');
+import { weights, weightedLottery } from './weightedLottery'
+
+console.log(weightedLottery(weights))
